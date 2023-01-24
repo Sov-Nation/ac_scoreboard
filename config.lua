@@ -10,13 +10,13 @@ ac = {
 	versionCheck = true,
 
 	-- Server name shown in the scoreboard header.
-	serverName = 'AC Scoreboard',
+	serverName = 'Sov Nation',
 
 	-- Command name to open the scoreboard UI.
 	commandName = 'scoreboard',
 
 	-- Default keybind for the '/scoreboard' command.
-	commandKey = 'DELETE',
+	commandKey = 'F10',
 
 	-- Which parts of the scoreboard should be visible (both, groups, players).
 	visibleParts = 'both',
@@ -27,21 +27,21 @@ ac = {
 	-- Group list shown in the scoreboard.
 	groupList = {
 		{
-			label = 'Police',
-			groups = {'police', 'sheriff'}
+			label = 'LEO',
+			groups = {'lspd', 'bcso', 'sasp'}
 		},
-		{
-			label = 'EMS',
-			groups = {'ambulance'},
-			separator = true
-		},
-		{
-			label = 'Taxi',
-			groups = {'taxi'}
-		},
-		{
-			label = 'Mechanic',
-			groups = {'mechanic', 'lsc', 'bennys'}
-		}
+		-- {
+		-- 	label = 'EMS',
+		-- 	groups = {'ambulance'},
+		-- 	separator = true
+		-- },
+		-- {
+		-- 	label = 'Taxi',
+		-- 	groups = {'taxi'}
+		-- },
+		-- {
+		-- 	label = 'Mechanic',
+		-- 	groups = {'mechanic', 'lsc', 'bennys'}
+		-- }
 	}
 }
